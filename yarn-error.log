@@ -1,0 +1,29 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add bootstrap jquery popper.js
+
+PATH: 
+  /home/rnz/.rbenv/plugins/ruby-build/bin:/home/rnz/.rbenv/shims:/home/rnz/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Ruby31-x64/bin:/mnt/c/Users/Rinzin Dorji/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Rinzin Dorji/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Rinzin Dorji/AppData/Local/GitHubDesktop/bin:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.22.8
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bootstrap: ETIMEDOUT
+      at Timeout._onTimeout (/usr/share/yarn/lib/cli.js:141543:19)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
