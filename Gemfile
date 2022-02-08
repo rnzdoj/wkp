@@ -27,4 +27,6 @@ group :development do
 end
 
 gem 'bootstrap'
+gem 'haml'
+gem 'haml-rails'
 gem 'jquery-rails'
